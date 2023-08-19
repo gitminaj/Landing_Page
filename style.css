@@ -42,3 +42,11 @@
 hr{
     margin: 0.8em 0px;
 }
+
+@media screen and (max-width: 1200px) {
+     .section1-div{
+        flex-direction: column;
+        width: -webkit-fill-available;
+        align-items: center;
+    } 
+}
