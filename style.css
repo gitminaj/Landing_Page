@@ -27,3 +27,18 @@
 .section1{
     height: 50vh;
 }
+
+.cover-img{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.headingimg{
+    width: 8em;
+    height: 8em;
+    align-self: center;
+}
+
+hr{
+    margin: 0.8em 0px;
+}

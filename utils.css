@@ -68,4 +68,14 @@
     background-color: #0d15ec;
     font-weight: bold;
     color: aliceblue;
+    cursor: pointer;
 }
+
+.cursor-point{
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+
