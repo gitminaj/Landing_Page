@@ -43,10 +43,31 @@ hr{
     margin: 0.8em 0px;
 }
 
+.section2 h1{
+    font-size: 1.7rem;
+}
+
+.box{
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 33%;
+}
+
+.box ul{
+    list-style: none;
+}
+
 @media screen and (max-width: 1200px) {
      .section1-div{
         flex-direction: column;
         width: -webkit-fill-available;
         align-items: center;
     } 
+    .topleft{
+        width: 100%;
+    }
+    .topright{
+        width: 75%;
+    }
 }
