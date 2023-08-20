@@ -56,16 +56,35 @@
     margin-bottom: 10px;
 }
 
-.px-2{
+.my-1top{
+    margin-top: 10px;
+}
+
+.px-1{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+
+.px-2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.py-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.py-1top{
+    padding-top: 10px;
 }
 
 .btn{
     padding: 5px 8px;
     border: 2px solid black;
     border-radius: 5px;
-    background-color: #0d15ec;
+    background-color: #151bd9;
     font-weight: bold;
     color: aliceblue;
     cursor: pointer;
