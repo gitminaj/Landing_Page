@@ -4,7 +4,8 @@
 }
 
 body{
-
+    background-image: url("assets/bg2.jpg");
+    background-size: cover;
 }
 
 .container{
@@ -30,17 +31,22 @@ body{
 
 .section1{
     height: 50vh;
+    background: #000000cc;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .cover-img{
     width: -webkit-fill-available;
     height: -webkit-fill-available;
+    border-radius: 20px;
 }
 
 .headingimg{
     width: 8em;
     height: 8em;
     align-self: center;
+    border-radius: 20px;
 }
 
 hr{
@@ -54,7 +60,7 @@ hr{
 
 .box{
     margin: 10px;
-    border: 1px solid rgb(21, 20, 20);
+    border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
     width: 25%;
@@ -78,19 +84,21 @@ hr{
 }
 
 .fot-section{
-    background: khaki;
+    background: #0000008c;
     padding: 10px;
     border-radius: 20px;
+    color: white;
 }
   
 .section2{
-    background: #94ff0080;
+    background: #000000cc;
     border-radius: 20px;
     padding: 10px;
+    color: white;
 }
 
 @media screen and (max-width: 1200px) {
-     .section1-div{
+    .section1-div{
         flex-direction: column;
         width: -webkit-fill-available;
         align-items: center;
@@ -110,5 +118,17 @@ hr{
     }
     .box{
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .fot-section{
+        flex-direction: column;
+    }
+    .explore, .contactus{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
     }
 }
