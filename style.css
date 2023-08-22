@@ -1,3 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +9,8 @@
 body{
     background-image: url("assets/bg2.jpg");
     background-size: cover;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Kanit', sans-serif;
 }
 
 .container{
@@ -99,7 +104,6 @@ hr{
 
 @media screen and (max-width: 1200px) {
     .section1-div{
-         /* flex-direction: column;  */
          width: -webkit-fill-available;
          align-items: center;
     }  
@@ -114,7 +118,7 @@ hr{
         align-items: center;
     }
     .box{
-        width: 50%;
+        width: 60%;
     }
     .topright{
         display: none;
@@ -131,9 +135,6 @@ hr{
     nav{
         flex-direction: column;
     }
-    .box{
-        width: 95%;
-    }
 }
 @media screen and (max-width: 500px){
     .section1-div{
@@ -144,5 +145,8 @@ hr{
         height: 4em;
         align-self: center;
         border-radius: 20px;
+    }
+    .box{
+        width: 95%;
     }
 }
