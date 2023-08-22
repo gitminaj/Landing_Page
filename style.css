@@ -43,8 +43,8 @@ body{
 }
 
 .headingimg{
-    width: 8em;
-    height: 8em;
+    width: 7em;
+    height: 7em;
     align-self: center;
     border-radius: 20px;
 }
@@ -98,10 +98,10 @@ hr{
 }
 
 @media screen and (max-width: 1200px) {
-     .section1-div{
+    .section1-div{
          /* flex-direction: column;  */
-        width: -webkit-fill-available;
-        align-items: center;
+         width: -webkit-fill-available;
+         align-items: center;
     }  
     .topleft{
         width: 100%;
@@ -133,5 +133,16 @@ hr{
     }
     .box{
         width: 95%;
+    }
+}
+@media screen and (max-width: 500px){
+    .section1-div{
+        overflow:scroll;
+    }  
+    .headingimg{
+        width: 4em;
+        height: 4em;
+        align-self: center;
+        border-radius: 20px;
     }
 }
