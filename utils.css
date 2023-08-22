@@ -76,6 +76,10 @@
     padding-bottom: 10px;
 }
 
+.py-1bottom{
+    padding-bottom: 10px;
+}
+
 .py-1top{
     padding-top: 10px;
 }
@@ -98,3 +102,6 @@
     text-align: center;
 }
 
+.lstyle-none{
+    list-style: none;
+}

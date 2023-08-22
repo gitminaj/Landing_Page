@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+
+}
+
 .container{
     max-width: 80vw;
 }
@@ -40,7 +44,7 @@
 }
 
 hr{
-    margin: 0.8em 0px;
+    margin: 0.5em 0px;
 }
 
 .section2 h1{
@@ -63,6 +67,26 @@ hr{
 .price-description{
     width: 80%;
     margin: auto;
+}
+
+.explore, .contactus{
+    width: 50%;
+}
+
+.explore ul li, .contactus ul li{
+    padding: 10px 0px;
+}
+
+.fot-section{
+    background: khaki;
+    padding: 10px;
+    border-radius: 20px;
+}
+  
+.section2{
+    background: #94ff0080;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 1200px) {
